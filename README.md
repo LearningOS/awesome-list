@@ -85,10 +85,25 @@ awesome-list is a list of awesome things curated by the LearningOS community.
   - [Rust in Action source code](https://github.com/rust-in-action/code)
 
 ### OS 学习
-* [rCore-Tutorial-Book 第三版](https://rcore-os.cn/rCore-Tutorial-Book-v3/index.html)
+
+risc-v系统结构:
+
+- [计算机组成与设计：RISC-V 教材](https://item.jd.com/12887758.html): 一本完整的risc-v教材
+- [计算机组成与设计：RISC-V 浙大在线课程](http://www.icourse163.org/course/ZJU-1452997167): 一门完整的risc-v在线课程
+- [RISC-V手册：一本开源指令集的指南](http://riscvbook.com/chinese/RISC-V-Reader-Chinese-v2p1.pdf): 系统地介绍risc-v体系结构
+- [RISC-V汇编手册](https://github.com/riscv-non-isa/riscv-asm-manual/blob/master/riscv-asm.md): 详细介绍risc-v汇编
+- [RISC-V指令集规范](https://riscv.org/technical/specifications/): risc-v官方规范手册
+- [PPT for RISC-V特权指令级架构](https://content.riscv.org/wp-content/uploads/2018/05/riscv-privileged-BCN.v7-2.pdf): 介绍risc-v特权指令级架构
+
+OS课程: 
+
+* [rCore-Tutorial-Book 第三版](https://rcore-os.cn/rCore-Tutorial-Book-v3/index.html): 训练营OS在线教程
+* [Operating Systems: Three Easy Pieces](https://pages.cs.wisc.edu/~remzi/OSTEP/): 优秀的国外OS课程, 聚焦于操作系统的三大基础: 虚拟, 并行, 持久
+* [深入了解计算机系统-电子版](https://hansimov.gitbook.io/csapp/): 著名的csapp课程, 可作为操作系统的先修课程
 
 ## PPT
 ### 
+
 * [第一节课：Rustling练习入门，基本数据类型，slice类型，所有权](https://cloud.tsinghua.edu.cn/d/51b02806997d459783e0/files/?p=%2FRust%E7%AC%AC%E4%B8%80%E6%AC%A1%E5%AD%A6%E4%B9%A0.pdf)
 
 ## 项目资料
@@ -99,6 +114,8 @@ awesome-list is a list of awesome things curated by the LearningOS community.
 ### Rust for Linux驱动
 
 ### Hypervisor虚拟化
+
+* [虚拟化方向资料仓库](https://github.com/arceos-hypervisor/2023-virtualization-campus): 包含虚拟化的基本概念, 以及基于x86, Arm64, riscv的hypervisor介绍
 
 ### ChenLongOS辰龙操作系统发行版
 * [如何在树莓派上运行ArceOS](https://chenlongos.com/raspi4-with-arceos-doc)
